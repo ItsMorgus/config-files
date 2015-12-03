@@ -196,9 +196,9 @@
 
 (add-hook 'haskell-mode-hook (lambda ()
 			       (rainbow-delimiters-mode)
-			       (interactive-haskell-mode)
+			       ;; (interactive-haskell-mode)
 			       (turn-on-haskell-indentation)
-			       ;; (inf-haskell-mode)
+			       (inf-haskell-mode)
 			       (setq haskell-program-name "ghci")
 			       (fci-mode)
 			       ))
